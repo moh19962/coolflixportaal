@@ -1,0 +1,2 @@
+com\coolflix\amqp\Config\RabbitMQConfig.class
+com\coolflix\amqp\Config\RabbitMQMessageProducer.class

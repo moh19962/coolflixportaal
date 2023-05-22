@@ -1,0 +1,8 @@
+com\coolflix\fraud\Controller\FraudController.class
+com\coolflix\fraud\Repository\FraudRepository.class
+com\coolflix\fraud\Domain\Service\FraudCheckService.class
+com\coolflix\fraud\Domain\Model\FraudCheckHistory$FraudCheckHistoryBuilder.class
+com\coolflix\fraud\Repository\FraudCheckHistoryRepository.class
+com\coolflix\fraud\Domain\Model\FraudCheckHistory.class
+com\coolflix\fraud\FraudApplication.class
+com\coolflix\fraud\Domain\Model\Fraud.class

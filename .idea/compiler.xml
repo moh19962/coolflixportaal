@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="apiw" />
+        <module name="notification" />
+        <module name="clients" />
+        <module name="fraud" />
+        <module name="fraudchampion" />
+        <module name="amqp" />
+        <module name="eureka-server" />
+        <module name="champion" />
+        <module name="customer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="untitled" target="17" />
+      <module name="user" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

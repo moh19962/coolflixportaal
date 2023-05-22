@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: champion
+  labels:
+    app: champion
+spec:
+  replicas: 1
+  template:
+    metadata:
+      name: champion
+      labels:
+        app: champion
+    spec:
+      containers:
+        - name: champion
+          image: mohammad1996/champion:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 9090
+          env:
+            - name: SPRING_PROFILES_ACTIVE
+              value: kube
+      restartPolicy: Always
+  selector:
+    matchLabels:
+      app: champion

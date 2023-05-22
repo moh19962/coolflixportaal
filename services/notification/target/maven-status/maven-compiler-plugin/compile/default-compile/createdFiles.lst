@@ -1,0 +1,8 @@
+com\coolflix\notification\Domain\Model\Notification$NotificationBuilder.class
+com\coolflix\notification\Config\NotificationConfig.class
+com\coolflix\notification\NotificationApplication.class
+com\coolflix\notification\rabbitmq\NotificationConsumer.class
+com\coolflix\notification\Domain\Service\NotificationService.class
+com\coolflix\notification\Repository\NotificationRepository.class
+com\coolflix\notification\Controller\NotificationController.class
+com\coolflix\notification\Domain\Model\Notification.class

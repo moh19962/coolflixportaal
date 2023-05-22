@@ -1,0 +1,8 @@
+com\coolflix\customer\Domain\Model\Customer$CustomerBuilder.class
+com\coolflix\customer\Controller\CustomerController.class
+com\coolflix\customer\Repository\CustomerRepository.class
+com\coolflix\customer\Domain\Model\Customer.class
+com\coolflix\customer\Domain\Request\CustomerRegistrationRequest.class
+com\coolflix\customer\Config\CustomerConfig.class
+com\coolflix\customer\Domain\Service\CustomerService.class
+com\coolflix\customer\CustomerApplication.class

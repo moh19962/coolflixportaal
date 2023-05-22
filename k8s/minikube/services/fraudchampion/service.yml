@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: fraudchampion
+spec:
+  selector:
+    app: fraudchampion
+  ports:
+    - port: 80
+      targetPort: 9091
+  type: NodePort

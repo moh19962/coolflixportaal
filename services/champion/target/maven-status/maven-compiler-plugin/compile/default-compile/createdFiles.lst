@@ -1,0 +1,8 @@
+com\coolflix\champion\ChampionApplication.class
+com\coolflix\champion\Domain\Model\Champion.class
+com\coolflix\champion\Config\ChampionConfig.class
+com\coolflix\champion\Domain\Request\ChampionRegistrationRequest.class
+com\coolflix\champion\Repository\ChampionRepository.class
+com\coolflix\champion\Controller\ChampionController.class
+com\coolflix\champion\Domain\Model\Champion$ChampionBuilder.class
+com\coolflix\champion\Domain\Service\ChampionService.class

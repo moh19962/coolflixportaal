@@ -1,0 +1,6 @@
+com\coolflix\clients\championfraud\FraudChampionClient.class
+com\coolflix\clients\notification\NotificationClient.class
+com\coolflix\clients\championfraud\FraudCheckResponse.class
+com\coolflix\clients\fraud\FraudClient.class
+com\coolflix\clients\fraud\FraudCheckResponse.class
+com\coolflix\clients\notification\NotificationRequest.class
