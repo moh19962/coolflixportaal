@@ -1,14 +1,14 @@
   name: build services and push img
   on:
     push:
-      branches: [ main ]
+      branches: [ master ]
 
   env:
     REGISTRY: ghcr.io
 
   jobs:
     customer-service:
-      name: Build vehicle service
+      name: Build customer service
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v2    
