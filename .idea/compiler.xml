@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="apiw" />
         <module name="notification" />
+        <module name="feed" />
         <module name="clients" />
         <module name="fraud" />
         <module name="fraudchampion" />

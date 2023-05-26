@@ -18,6 +18,7 @@
         <module>services/notification</module>
         <module>apiw</module>
         <module>amqp</module>
+      <module>services/feed</module>
     </modules>
 
     <name>coolflixportaal</name>

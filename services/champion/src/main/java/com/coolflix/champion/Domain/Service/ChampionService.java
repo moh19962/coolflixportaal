@@ -10,6 +10,8 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
+import java.util.List;
+
 
 @Service
 @AllArgsConstructor
@@ -43,6 +45,26 @@ public class ChampionService {
 //                                    customer.getFirstName())
 //                    )
 //            );
+    }
+
+    public List<Champion> findAll(){
+        List<Champion> champions = championRepository.findAll();
+        return champions;
+    }
+
+
+    public Champion findById(Integer id) {
+        Champion champion = championRepository.findById(id).orElse(null);
+        return champion;
+    }
+
+    public void updateChampion(Champion champion) {
+        if(championRepository.findById(champion.getId())!=null) {
+            championRepository.save(champion);
+        }
+    }
+    public void deleteChampion(Integer id){
+        championRepository.deleteById(id);
     }
 
 }

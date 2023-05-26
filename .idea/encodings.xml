@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/services/clients/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/customer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/customer/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/feed/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services/feed/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/fraud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/fraud/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/services/fraudchampion/src/main/java" charset="UTF-8" />
