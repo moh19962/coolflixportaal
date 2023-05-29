@@ -26,7 +26,7 @@
             restore-keys: ${{ runner.os }}-m2   
 
         - name: Build with Maven
-          run: mvn -B package --file service/customer/pom.xml
+          run: mvn -B package --file services/customer/pom.xml
 
         - name: Login To Registry
           uses: docker/login-action@f054a8b539a109f9f41c372932f1ae047eff08c9
