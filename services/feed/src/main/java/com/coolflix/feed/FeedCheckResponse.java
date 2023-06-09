@@ -1,4 +1,10 @@
 package com.coolflix.feed;
 
-public record FeedCheckResponse() {
+import com.coolflix.feed.Domain.Model.Feed;
+
+import java.time.LocalDateTime;
+import java.util.List;
+
+public class FeedCheckResponse {
+    private List<Feed> feedList;
 }

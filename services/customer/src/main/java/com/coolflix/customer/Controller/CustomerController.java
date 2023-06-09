@@ -1,5 +1,6 @@
 package com.coolflix.customer.Controller;
 
+import com.coolflix.customer.Domain.Model.Customer;
 import com.coolflix.customer.Domain.Request.CustomerRegistrationRequest;
 import com.coolflix.customer.Domain.Service.CustomerService;
 import lombok.AllArgsConstructor;
@@ -23,4 +24,10 @@ public class CustomerController {
     public String hello() {
         return "Hello, World!";
     }
+
+//    @GetMapping("/{id}}")
+//    public @ResponseBody Customer getCustomerWithFeed(@PathVariable Integer id) {
+//        log.info("Inside getCustomerWithId of customerController");
+//        return customerService.getCustomerWithFeed(id);
+//    }
 }

@@ -29,7 +29,7 @@ public class ChampionController {
     }
 
     @GetMapping()
-    public ResponseEntity<List<Champion>> getAllVehicles (){
+    public ResponseEntity<List<Champion>> getAllChampions (){
         try{
             List<Champion> champions = championService.findAll();
             return ResponseEntity.ok().body(champions);

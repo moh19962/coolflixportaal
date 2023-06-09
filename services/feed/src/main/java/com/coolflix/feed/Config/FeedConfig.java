@@ -7,8 +7,9 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class FeedConfig {
-
     @Bean
     @LoadBalanced
-    public RestTemplate restTemplate() { return new RestTemplate(); }
+    public RestTemplate restTemplate() {
+        return new RestTemplate();
+    }
 }

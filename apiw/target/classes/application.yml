@@ -24,6 +24,10 @@ spring:
           uri: lb://FRAUDCHAMPION
           predicates:
             - Path=/api/v1/fraudchampion/**
+        - id: feed
+          uri: lb://FEED
+          predicates:
+            - Path=/api/v1/feed/**
 
 
 eureka:

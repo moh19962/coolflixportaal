@@ -30,6 +30,7 @@ public class Feed {
     )
 
     private Integer id;
+    private Integer customerId;
     private String title;
     private String description;
     private LocalDateTime date;
